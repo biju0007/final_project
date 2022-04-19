@@ -1,0 +1,236 @@
+*{/*added the font style that is specified*/
+    margin: 1%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    max-width: 1200px;
+}
+/*header part with background, navigation links, search bar and logo */
+            .header{
+                background-color: #222;
+                
+            }
+
+                    nav{
+
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        padding: 0px 50px 0px 100px;
+                    }
+                       
+                            nav ul{
+                                display: flex;
+                                list-style: none;
+                            }
+
+                            nav ul li{
+                                margin: 0 15px;
+                            }
+
+                                nav ul li a{
+                                    color: #c78c06;
+                                    text-decoration: none;
+                                    font-size: 20px;
+                                    padding: 20px;
+                                    
+                                }
+
+                                        .home{
+                                            background: #c78c06;
+                                            color: #222;
+                                        padding: 20px 35px;
+                                        }
+                                        .about {
+                                            padding: 20px;
+                                        }
+                                        .services {
+                                            padding: 20px;
+                                        }
+                                        .contact {
+                                            padding: 20px;
+                                        }
+                                    .form{
+                                margin-top: 15px;
+                                float: right;
+                                margin-right: 100px;
+                                outline: 0;
+
+                                }
+/* main banner background image specified*/
+.connect-us{
+    background-image: url(/images/main-banner.jpg);
+}
+/*banner heading*/
+.heading1{
+    color: white;
+    font-size: 56px;
+    font-weight: 800;
+   
+}
+
+.banner-heading{
+    padding: 200px 100px  ;
+    padding-top: 10px;
+    background: #222 ;
+    opacity: 0.8;
+    margin-left:50px;
+    margin-right: 50px;
+    padding: 50px;
+    padding-top: 20px;
+    margin-top: 0%;
+}
+/*background specified*/
+.aboutus{
+    background: #ffe6ac;
+    margin-top: 0;
+}
+/* button designing*/
+.connect-with-us{
+    background: #c78c06;
+    padding: 10px;
+    margin: 5px;
+    text-decoration: none;
+    color: #222;
+    opacity:none;
+    width: 1200px;
+
+}
+.bannerflex{
+    
+}
+/*applying grid specifying positions and color*/
+.grid-container {
+    display: grid;
+    grid-template-columns :2;
+    grid-template-rows :repeat(2, 1fr);
+    background-color:#ffe6ac;
+    width: 15300px;
+    font-size: 22px;
+
+  }
+/*specifying position of the third item on the grid*/
+  .item3 {
+    grid-column:2 / 2;
+    grid-row:2 / 2;   
+
+   }
+
+.item2{
+    padding: 10px;
+}
+/*formatting button in service*/
+.input1{
+    color: rgb(255, 255, 255);
+    background: #222;
+    width: 100%;
+    padding: 30px;
+    align-content: center;
+    justify-content: last baseline;
+    font-size: auto;
+}
+.h3{
+    font-weight: 700;
+}
+.h2{font-weight: 900;}
+.aboutus{
+    display: flex;
+}
+/*formatting the button*/
+.connectus
+{
+    background: #c78c06;
+    color: #222;
+    padding: 20px;
+    padding-left: 10px;
+    width: 150px;
+    opacity:0.99;
+}/* banner content color*/
+.banner-body{
+    color: white;
+}
+/* adding background color to blocks*/
+.block{
+    background:#ffe6ac;
+    width: 100%;
+}
+/*using flex property*/
+.services1{
+    display: flex;
+}
+
+}
+#services2{
+    display:flex;
+
+}
+/*fprmatting the table by specifying the color width and border collapse*/
+table,th,td{
+    width: 900px;
+    margin: 50px;
+    padding: 20px;
+    
+    border: 2px solid #000;
+    border-collapse: collapse;
+}
+
+th{
+    background: #ffe6ac;
+    text-align: center;
+}
+ td{
+     text-align: none;
+ }/* formatting footer*/
+footer{
+    background: #222;
+    padding: 30px;
+    color: #c78c06;
+}
+/*increasing width of the head tag of table*/
+th:nth-child(1){
+    width: 60%;
+}
+/*adding and formatting background image of visions*/
+.our-vision{
+    background-image: url(/images/vision.jpg);
+    width: 1500px;
+    color: white;
+    padding: 50px;
+}/*formatting the name bar emaila nd text area*/
+.input2{
+    padding: 20px;
+    border-color: rgb(255, 0, 0);
+    background:#262336;
+    color: white;
+}
+.contactandlocationflex{
+    display: flex;
+   
+}
+input[type=text], select, textarea {
+    width: 550px;
+    padding: 1px;
+    border-radius: 2px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 5px;
+    resize: vertical;
+  }
+  /*formatting the send button*/
+  input[type=submit] {
+    background-color:#222;
+    color: #c78c06;
+    padding: 1px 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .container {
+    border-radius: 5px;
+    padding: 20px;
+    width: 550px;
+  }
+  /*adding width to header search bar*/
+ #searchbar{
+     width: 100px;
+ }
